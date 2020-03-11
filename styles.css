@@ -1,0 +1,18 @@
+
+.done {
+    text-decoration: line-through;
+}
+
+.del_item{
+    background-color: #ED4337;
+    color: black;
+    display: inline-block;
+    height: 25px;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 30px;
+    box-shadow: coral;
+}
+.del_item:after {
+    content: "delete";
+}
